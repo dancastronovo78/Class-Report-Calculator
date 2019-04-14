@@ -1,0 +1,142 @@
+/*-- Start CSS --*/
+body{
+    background-color: beige
+}
+
+#imgLogo{
+    width: 15%;
+}
+
+#titleContainer{
+    text-align: center;
+}
+
+h1{
+    font-family: arial;
+    font-size: 2.75em;
+}
+
+#dynTxtBx, #numTrn, #numSelect, #btnSubTest, label{
+    font-family: arial;
+    font-size: 1.25em;
+}
+
+#dynTxtBx{
+    width: 30%;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#infoContainer{
+    text-align: center
+}
+
+input[type=number]{
+    width: 25%;
+    text-align: center;
+}
+
+#formContainer{
+    position: relative;
+    width: 50%;
+    margin: 0 1%;
+}
+
+#newTxtBx{
+    margin: 0 1%;
+    padding: 1em;
+    font-family: arial;
+    font-size: 1.25em;
+}
+
+form{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#subScores{
+    width: 95%;
+    margin: 0;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+}
+
+#btnWrapper{
+    position: relative;
+     margin-bottom: 150px;
+}
+
+.absRight{
+    position: absolute;
+    right: 0;
+}
+
+#btnAddNewForm{
+    margin-top: 35px;
+}
+
+#btnAddNewForm2{
+    margin-top: 35px;
+}
+
+#btnDelete{
+    margin-top: 70px;
+}
+
+#btnRstTop{
+    margin-top: 105px;
+}
+
+#disContainer{
+    width: 25%;
+    margin: 1.5%;
+    padding: 1em;
+    font-family: arial;
+    //font-size: 1.25em;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 61.4%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+#disContainer p{
+    font-size: 1.25em;
+}
+
+#disContainer h2{
+    font-size: 2em;
+}
+
+input, button{
+    font-family: arial;
+    font-size: 1.25em;
+}
+
+button{
+    cursor: pointer;
+}
+
+.txtBx{
+    margin: 1%;
+}
+
+.hide{
+    display: none;
+}
+
+fieldset{
+    margin-bottom: 1.5%;
+}
+
+#nmbEval{
+    margin-bottom: 1.5%;
+}
+/*-- End CSS --*/

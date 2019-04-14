@@ -1,0 +1,73 @@
+<!DOCTYPE html>        
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Class Report Calculator</title>
+        <link href="classCalcStyle.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div id="bodyWrapper" >
+            <div id="headContainer">
+                <div id="logoContainer">
+                    <img id="imgLogo" src="images/T&D%20logo%20med.png" alt="T&D Logo.">
+                </div>
+                <div id="titleContainer">
+                    <h1>Class Report Calculator</h1>
+                </div>
+            </div>
+            <div id="dynTxtBx">
+                <div id="infoContainer">
+                    <div id="nmbEval">
+                        <label for="numer">Enter the number of evaluations: </label>
+                        <input type="number" id="numSelect" placeholder="1" min="1" value="1" name="input">
+                    </div>
+                    <div id="selectTrn">
+                        <select id="numTrn" name="input">
+                            <option >Choose the number of trainers</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <button id="btnSubTest" >Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div id="formContainer" aria-live="assertive">
+                <div id="newTxtBx" class="hide">
+                    <!-- dynamic forms will populate here -->
+                </div>
+                <div id="subScores" class="hide" aria-live="assertive">
+                    <div id="btnWrapper">
+                        <br>
+                        <button class="hide absRight" id="btnSubScoresTop">Submit Responses</button>
+                        <br>
+                        <button class="hide absRight" id="btnAddNewForm">Add New Form</button>
+                        <button class="hide absRight" id="btnAddNewForm2">Add New Form</button>
+                        <br>
+                        <button class="hide absRight" id="btnDelete">Delete Last Form</button>
+                        <br>
+                        <button class="hide absRight" id="btnRstTop">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div id="disContainer" class="hide">
+                <div id="disWrapper">
+                    <h2 aria-live="polite">Course Averages</h2>
+                    <p id="displayNumPages" aria-live="polite"></p>
+                    <p id="displayScores" aria-live="polite"></p>
+                    <p id="displayScores1" aria-live="polite"></p>
+                    <p id="displayScores2" aria-live="polite"></p>
+                    <p id="displayScores3" aria-live="polite"></p>
+                    <p id="displayScores4" aria-live="polite"></p>
+                    <p id="displayScores4a" aria-live="polite"></p>
+                    <p id="displayScores5" aria-live="polite"></p>
+                </div>
+                <button id="btnPrint">Print Averages</button>
+            </div>
+        </div>
+        <script src="reportCalc_TEST.js"></script>  
+    </body>
+</html>
